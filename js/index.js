@@ -1,6 +1,6 @@
 "use strict";
 
-import strictEquals from "./strictEquals/strictEquals";
+import strictEquals from "./strictEquals/strictEquals.js";
 
 console.log(strictEquals(1, 1));
 console.log(strictEquals(NaN, NaN));
